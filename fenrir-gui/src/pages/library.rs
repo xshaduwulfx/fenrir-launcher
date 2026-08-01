@@ -12,17 +12,18 @@ pub fn build() -> Box {
     .css_classes(["dim-label"])
     .build();
 
-    let add_game_button = Button::builder()
-    .label("Add your first game")
+    let import_button = Button::builder()
+    .label("Import your first game")
     .halign(Align::Center)
     .build();
 
     let content = Box::new(Orientation::Vertical, 12);
     content.set_halign(Align::Center);
     content.set_valign(Align::Center);
+
     content.append(&title);
     content.append(&subtitle);
-    content.append(&add_game_button);
+    content.append(&import_button);
 
     content
 }

@@ -1,1 +1,1 @@
-pub mod welcome_page;
+pub mod sidebar;
