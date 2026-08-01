@@ -1,3 +1,7 @@
+mod app;
+mod main_window;
+mod widgets;
+
 fn main() {
-    println!("Hello, world!");
+    app::run();
 }
